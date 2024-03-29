@@ -1,6 +1,6 @@
 # Todo List Application
 
-![Alt text](Myapp)
+![Alt text](https://github.com/Jescaalex/To-do_List_webapp/blob/main/Myapp.png)
 A simple Todo List application built with JavaScript, HTML, and CSS.
 
 ## Installation
