@@ -1,0 +1,122 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    text-align: center;
+    font-family: Cambria;
+    animation: bounce 1s infinite alternate;
+    color: green;
+}
+h3{
+
+    text-align: center;
+    color: orangered;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(-1px);
+    }
+
+    100% {
+        transform: translateY(10px);
+    }
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+.img{
+
+    height: 20%;
+    width: 15%;
+    float: right;
+
+
+}
+.img1{
+
+    height: 20%;
+    width: 15%;
+
+
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: #45a091;
+}
+
+button.delete {
+    background-color: red;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+.completed {
+    text-decoration: line-through;
+    text-transform: capitalize;
+    opacity: 0.5;
+}
+
+.not-completed {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+
+/* Style for the entire table */
+table {
+    width: 100%; /* Make the table fill its container */
+    border-collapse: collapse; /* Collapse the borders between table cells */
+  }
+  
+  /* Style for table headers */
+  th {
+    background-color: #f2f2f2; /* Light gray background color */
+    padding: 10px; /* Add padding to the header cells */
+    text-align: left; /* Align text to the left */
+    border-bottom: 2px solid #ddd; /* Add a bottom border */
+  }
+  
+  /* Alternate row color */
+  tr:nth-child(even) {
+    background-color: #f9f9f9; /* Lighter background color for even rows */
+  }
+  
+  /* Style for table cells */
+  td {
+    padding: 10px; /* Add padding to the cells */
+    border-bottom: 1px solid #ddd; /* Add a bottom border */
+  }
+  
+  /* Hover effect */
+  tr:hover {
+    background-color: #f2f2f2; /* Light gray background color on hover */
+  }
+  
